@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jxpearce
+Build-Jdk: 1.8.0_161
+Extension-Name: github-autostatus
+Specification-Title: Automatically provides job and stage timing and p
+ ass/fail stats to GitHub and/or InfluxDB/Grafana.
+Implementation-Title: github-autostatus
+Implementation-Version: 3.6.2
+Group-Id: org.jenkins-ci.plugins
+Short-Name: github-autostatus
+Long-Name: Job and Stage monitoring Plugin
+Url: https://wiki.jenkins.io/display/JENKINS/Job+and+Stage+Monitoring+
+ Plugin
+Compatible-Since-Version: 3.0
+Minimum-Java-Version: 1.8
+Plugin-Version: 3.6.2
+Hudson-Version: 2.150.3
+Jenkins-Version: 2.150.3
+Plugin-Dependencies: workflow-api:2.34,cobertura:1.12.1,github-branch-
+ source:2.5.8,jacoco:2.2.1,pipeline-model-api:1.5.1,pipeline-model-def
+ inition:1.5.1
+Plugin-Developers: Jeff Pearce:jeffpearce:jxpearce@godaddy.com
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/github-autostatus-plugin
+
